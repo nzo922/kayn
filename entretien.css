@@ -1,7 +1,6 @@
-body { 
-    background-color: gray;
-    margin:0 ;
+body {
     margin: 0;
+    background-color: grey;
 }
 
 header {
@@ -30,7 +29,7 @@ h1{
 .container-link ul {
     list-style-type: none;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     gap: 6rem;
 }
 
@@ -43,7 +42,7 @@ p{
 
 p:hover{
     color: rgb(94, 94, 182);
-    font-size: 24px;
+    font-size: x-large;
 }
 
 .container-profile{
@@ -61,11 +60,10 @@ section{
     background-color: rgb(89, 89, 89);
 }
 
-.container-card{
-    display: flex;
+.container-card{display: flex;
     justify-content: space-evenly;
     margin: 0 auto;
-    padding: 10%;
+padding: 10%;
 }
 
 .card{
@@ -103,22 +101,16 @@ container-link ul {
 }
 
 .logo{
+    width: 25%;
     border-radius: 50%;
     position: relative;
-    width: 100px;
-    left: 1%;
+    top: -290px;
+    left: -600px;
 
 }
 
 ul {
     position: relative;
-    left: 20%;
-
-}
-
-.card-entretien {
-    position: relative;
-    width: 80%;
- 
+    left: -60px;
 
 }
